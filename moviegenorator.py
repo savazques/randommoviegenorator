@@ -76,14 +76,14 @@ def main():
     makeDictionary()
 
  
-    usrInput = str(input("Would you like a random movie? Specific ranking? or Specific Genre? \n Enter Here: "))
+    userInput = str(input("Would you like a random movie? Specific ranking? or Specific Genre? \n Enter Here: "))
 
-    if usrInput.lower() == "genre" :
+    if userInput.lower() == "genre" :
         print("true")
-        genreList(makeDictionary(), usrInput)
-    if usrInput.lower() == "ranking" : 
-        rankList(makeDictionary(), usrInput)
-    if usrInput.lower() == "random": 
+        genreList(makeDictionary(), userInput)
+    if userInput.lower() == "ranking" : 
+        rankList(makeDictionary(), userInput)
+    if userInput.lower() == "random": 
         randomList(makeDictionary())  
         
     
